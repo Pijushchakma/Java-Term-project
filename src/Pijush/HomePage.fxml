@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3440;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pijush.HomePageController">
+   <children>
+      <ImageView fx:id="image" fitHeight="134.0" fitWidth="174.0" layoutX="226.0" layoutY="21.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@20171112_011056.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="PlayButton" layoutX="183.0" layoutY="238.0" mnemonicParsing="false" onAction="#PlayAction" style="-fx-background-color: #1362EE;" text="Play" textFill="#1e1612">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="LogOutButton" layoutX="363.0" layoutY="238.0" mnemonicParsing="false" onAction="#logoutAction" style="-fx-background-color: #EE132A;" text="Log Out" textFill="#af0a0a">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="message" layoutX="257.0" layoutY="166.0" prefHeight="35.0" prefWidth="101.0" text="Label" textFill="#ca1515">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

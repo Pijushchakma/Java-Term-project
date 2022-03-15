@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="697.0" style="-fx-background-color: #2D3440;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pijush.Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="323.0" layoutX="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Desktop/Ludo-And-Snake-And-Ladder-02509-1.jpgfilenameUTF-8Ludo-And-Snake-And-Ladder-02509-1.jpg" />
+         </image>
+      </ImageView>
+      <ButtonBar layoutX="483.0" layoutY="14.0" prefHeight="40.0" prefWidth="200.0">
+         <buttons>
+            <Button fx:id="SignUpButton" mnemonicParsing="false" onAction="#SignUpAction" style="-fx-background-color: #E1581C;" text="Sign Up" />
+         </buttons></ButtonBar>
+      <TextField />
+      <Text layoutX="420.0" layoutY="116.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#8c1d1d" offset="0.0458904109589041" />
+                  <Stop color="#8c1d1d" offset="0.09520547945205476" />
+                  <Stop color="#8c1d1d" offset="0.12534246575342464" />
+                  <Stop color="#8c1d1d" offset="0.14726027397260272" />
+                  <Stop color="#8c1d1d" offset="0.14726027397260272" />
+                  <Stop color="#59616b" offset="0.3456499006587891" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <TextField fx:id="userText" layoutX="422.0" layoutY="159.0" prefHeight="26.0" prefWidth="159.0" promptText="User Name" style="-fx-background-color: #2E4C93;" />
+      <Button fx:id="LoginButton" layoutX="457.0" layoutY="284.0" mnemonicParsing="false" onAction="#LoginAction" style="-fx-background-color: #E1581C;" text="Log In" />
+      <ImageView fitHeight="416.0" fitWidth="371.0" layoutX="-11.0" layoutY="-9.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@Ludo-And-Snake-And-Ladder-02509-1.jpgfilenameUTF-8Ludo-And-Snake-And-Ladder-02509-1.jpg" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="passwordText" layoutX="422.0" layoutY="200.0" promptText="Pass Word" style="-fx-background-color: #2E4C93;">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>
